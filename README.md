@@ -56,7 +56,7 @@ mkdir experiments
 ./experiments/reid_dcsl/set01/train_model.sh [GPU-ID]
 ```
 
-3. Finally, you can evaluate and visualize the trained model by running 'code/eval/cuhk03_test.ipynb'
+3. Finally, you can evaluate and visualize the trained model by running `code/eval/cuhk03_test.ipynb`
 
 Please cite our work in your publications if it helps your research:
 
