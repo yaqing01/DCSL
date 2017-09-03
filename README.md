@@ -1,4 +1,4 @@
-# DCSL for Person Re-Identification 
+# DCSL for Person Re-Identification (Re-ID)
 
 Code for paper "Semantics-Aware Deep Correspondence Structure Learning for Robust Person Re-Identification"
 
