@@ -58,6 +58,7 @@ We have written all the model templates for training in `models/reid/dcsl`, all 
 3. Finally, you can evaluate and visualize the trained model by running 'code/eval/cuhk03_test.ipynb'
 
 Please cite our work in your publications if it helps your research:
+
     @inproceedings{ZhangLZZ16,
       author = {Yaqing Zhang and Xi Li and Liming Zhao and Zhongfei Zhang},
       title = {Semantics-Aware Deep Correspondence Structure Learning for Robust Person Re-Identification}, 
