@@ -1,0 +1,23 @@
+# The train/test net protocol buffer definition
+net: "{{net_path}}"
+# test_iter specifies how many forward passes the test should carry out.
+# In the case of MNIST, we have test batch size 100 and 100 test iterations,
+# covering the full 10,000 testing images.
+test_iter: 1000
+# Carry out testing every 500 training iterations.
+test_interval: 1000
+test_initialization:false
+# The base learning rate, momentum and the weight decay of the network.
+base_lr: 0.001
+lr_policy: "poly"
+power: 0.5
+max_iter: 20000
+momentum: 0.9
+weight_decay: 0.0002
+snapshot: 5000
+# Display every 100 iterations
+display: 100
+# snapshot intermediate results
+snapshot_prefix: "{{snapshots_prefix}}"
+# solver mode: CPU or GPU
+solver_mode: GPU
