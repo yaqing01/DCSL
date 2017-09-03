@@ -47,10 +47,11 @@ We have written all the model templates for training in `models/reid/dcsl`, all 
 
 1. Prepare for training
 ```sh
+mkdir experiments
 ./models/reid/dcsl/prepare.sh
 ```
 
-2. Train the model using the generated proto files
+2. Train the model using the generated proto files and you can download the pre-trained `bvlc_googlenet.caffemode` for fine-tuning.
 ```sh
 ./experiments/reid_dcsl/set01/train_model.sh [GPU-ID]
 ```
